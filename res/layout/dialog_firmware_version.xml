@@ -74,6 +74,19 @@
             android:id="@+id/kernel_version_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+        <TextView
+            style="@style/device_info_dialog_label"
+            android:id="@string/maintainer_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maintainer_title" />
+        
+         <TextView
+            style="@style/device_info_dialog_value"
+            android:id="@string/device_maintainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/device_maintainer"/>
 
         <TextView
             style="@style/device_info_dialog_label"
@@ -88,4 +101,5 @@
             android:layout_height="wrap_content"/>
 
     </LinearLayout>
+      
 </ScrollView>
